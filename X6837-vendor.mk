@@ -9,60 +9,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6837/proprietary/system_ext/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/vtservice \
     vendor/infinix/X6837/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
     vendor/infinix/X6837/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libAGFX.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libAGFX.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libArcFilter.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libArcFilter.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libByteVC1_dec.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libByteVC1_dec.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libCutSameConsumerJni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libCutSameConsumerJni.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libCutSameJni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libCutSameJni.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libExtractorJni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libExtractorJni.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libMNN.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libMNN.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libMediaDelegatesJni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libMediaDelegatesJni.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libNLEEditorJni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libNLEEditorJni.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libNLEMediaJni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libNLEMediaJni.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libNLEMediaPublicJni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libNLEMediaPublicJni.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libNLETemplateModelJni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libNLETemplateModelJni.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libNvStreamingSdkCore.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libNvStreamingSdkCore.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libProcessCore.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libProcessCore.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libXDocProcessSDK.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libXDocProcessSDK.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libYTCommonXImage.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libYTCommonXImage.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libacoustic.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libacoustic.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libaw_livehdr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libaw_livehdr.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libbdaudioeffect.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libbdaudioeffect.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libbstQRCode.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libbstQRCode.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libbyteeffect.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libbyteeffect.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libbytevc0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libbytevc0.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libc++_shared.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libc++_shared.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libcjson.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libcjson.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libcommon.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libcommon.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libcvface_api.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libcvface_api.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libdecoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libdecoder.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libec_jpeg_decoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libec_jpeg_decoder.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libeffect-taint.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libeffect-taint.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libeffect.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libeffect.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libfft.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libfft.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libgaia_lib.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libgaia_lib.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libjniBstQrCode.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libjniBstQrCode.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libjni_cvface_api.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libjni_cvface_api.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libjni_stmobile_hand.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libjni_stmobile_hand.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libjnipanorama.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libjnipanorama.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libjnistblur_preview_api.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libjnistblur_preview_api.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libjniwideselfie.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libjniwideselfie.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libnewep.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libnewep.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libopenblas.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libopenblas.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libpanorama.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libpanorama.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libstblur_preview_api.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libstblur_preview_api.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libstm_facejni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libstm_facejni.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libstmobile_facebase.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libstmobile_facebase.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libstmobile_hand.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libstmobile_hand.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libtensorflowlite_c.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libtensorflowlite_c.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libttffmpeg.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libttffmpeg.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libttmverify.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libttmverify.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libttmverifylite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libttmverifylite.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libttvesdk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libttvesdk.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libttyuv.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libttyuv.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libvcsdk_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libvcsdk_jni.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libwbcryptodecwrappercameraservice.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libwbcryptodecwrappercameraservice.so \
-    vendor/infinix/X6837/proprietary/system_ext/lib/arm64/libwideselfie.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/arm64/libwideselfie.so \
     vendor/infinix/X6837/proprietary/system_ext/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcomutils.so \
     vendor/infinix/X6837/proprietary/system_ext/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma.so \
     vendor/infinix/X6837/proprietary/system_ext/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_adapt.so \
@@ -826,7 +772,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6837/proprietary/vendor/etc/init/bootperf.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bootperf.rc \
     vendor/infinix/X6837/proprietary/vendor/etc/init/camerahalserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/camerahalserver.rc \
     vendor/infinix/X6837/proprietary/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
-    vendor/infinix/X6837/proprietary/vendor/etc/init/em_hidl_user.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/em_hidl_user.rc \
     vendor/infinix/X6837/proprietary/vendor/etc/init/em_hidl_user.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/em_hidl_user.rc \
     vendor/infinix/X6837/proprietary/vendor/etc/init/fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fpsgo.rc \
     vendor/infinix/X6837/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
@@ -2568,14 +2513,7 @@ PRODUCT_PACKAGES += \
     libfmjni \
     libwvhidl \
     libwvdrmengine \
-    vendor.mediatek.hardware.engineermode@1.0 \
-    vendor.mediatek.hardware.engineermode@1.1 \
-    vendor.mediatek.hardware.engineermode@1.2 \
-    vendor.mediatek.hardware.engineermode@1.3 \
-    libem_support_jni \
     ImsService \
-    EngineerMode \
-    TranssionCamera \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
@@ -2603,5 +2541,4 @@ PRODUCT_PACKAGES += \
     manifest_media_c2_V1_1_default.xml \
     manifest_tneengine.xml \
     vendor.mediatek.hardware.tranHwInfo@1.0.xml \
-    vendor.transsion.hardware.trancam.trancamserver@1.0.xml \
-    em_hidl
+    vendor.transsion.hardware.trancam.trancamserver@1.0.xml

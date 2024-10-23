@@ -58,94 +58,6 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
-cc_prebuilt_library_shared {
-	name: "vendor.mediatek.hardware.engineermode@1.0",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.engineermode@1.0.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.mediatek.hardware.engineermode@1.1",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.engineermode@1.1.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.mediatek.hardware.engineermode@1.2",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.engineermode@1.2.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "vendor.mediatek.hardware.engineermode@1.3",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/vendor.mediatek.hardware.engineermode@1.3.so"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	prefer: true,
-	soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-	name: "libem_support_jni",
-	owner: "infinix",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/system_ext/lib/libem_support_jni.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/system_ext/lib64/libem_support_jni.so"],
-		},
-	},
-	compile_multilib: "both",
-	check_elf_files: false,
-	prefer: true,
-	system_ext_specific: true,
-}
-
 android_app_import {
 	name: "ImsService",
 	owner: "infinix",
@@ -155,17 +67,6 @@ android_app_import {
 		enabled: false,
 	},
 	privileged: true,
-}
-
-android_app_import {
-	name: "EngineerMode",
-	owner: "infinix",
-	apk: "proprietary/system_ext/app/EngineerMode/EngineerMode.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
 }
 
 dex_import {
@@ -391,23 +292,6 @@ prebuilt_etc_xml {
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.transsion.hardware.trancam.trancamserver@1.0.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-cc_prebuilt_binary {
-	name: "em_hidl",
-	owner: "infinix",
-	target: {
-		android_arm64: {
-			srcs: ["proprietary/vendor/bin/em_hidl"],
-		},
-	},
-	compile_multilib: "64",
-	check_elf_files: false,
-	strip: {
-		none: true,
-	},
-	prefer: true,
 	soc_specific: true,
 }
 
