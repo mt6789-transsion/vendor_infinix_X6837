@@ -83,7 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6837/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service \
     vendor/infinix/X6837/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mms@1.6-service \
     vendor/infinix/X6837/proprietary/vendor/bin/hw/vendor.mediatek.hardware.nvram@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.nvram@1.1-service \
-    vendor/infinix/X6837/proprietary/vendor/bin/hw/vendor.mediatek.hardware.nwk_opt@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.nwk_opt@1.0-service \
     vendor/infinix/X6837/proprietary/vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.pq@2.2-service \
     vendor/infinix/X6837/proprietary/vendor/bin/hw/vendor.mediatek.hardware.tranHwInfo@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.tranHwInfo@1.0-service \
     vendor/infinix/X6837/proprietary/vendor/bin/hw/vendor.tne@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.tne@1.0-service \
@@ -823,7 +822,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6837/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
     vendor/infinix/X6837/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
     vendor/infinix/X6837/proprietary/vendor/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nvram@1.1-sevice.rc \
-    vendor/infinix/X6837/proprietary/vendor/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc \
     vendor/infinix/X6837/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
     vendor/infinix/X6837/proprietary/vendor/etc/init/vendor.mediatek.hardware.tranHwInfo@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.tranHwInfo@1.0-service.rc \
     vendor/infinix/X6837/proprietary/vendor/etc/init/vendor.transsion.hardware.trancam.trancamserver@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.transsion.hardware.trancam.trancamserver@1.0-service.rc \
@@ -1421,14 +1419,11 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6837/proprietary/vendor/lib/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha_vendor.so \
     vendor/infinix/X6837/proprietary/vendor/lib/libkaraoke.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkaraoke.so \
     vendor/infinix/X6837/proprietary/vendor/lib/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libladder.so \
-    vendor/infinix/X6837/proprietary/vendor/lib/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminiui.so \
     vendor/infinix/X6837/proprietary/vendor/lib/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmml.so \
-    vendor/infinix/X6837/proprietary/vendor/lib/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmprofile.so \
     vendor/infinix/X6837/proprietary/vendor/lib/libmp3dec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp3dec_mtk.so \
     vendor/infinix/X6837/proprietary/vendor/lib/libmp4enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so \
     vendor/infinix/X6837/proprietary/vendor/lib/libmp4enc_xa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_xa.ca7.so \
     vendor/infinix/X6837/proprietary/vendor/lib/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsbc_mtk.so \
-    vendor/infinix/X6837/proprietary/vendor/lib/libmtk_bsg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtk_bsg.so \
     vendor/infinix/X6837/proprietary/vendor/lib/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcutils.so \
     vendor/infinix/X6837/proprietary/vendor/lib/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtklimiter_vendor.so \
     vendor/infinix/X6837/proprietary/vendor/lib/libmtkproperty.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkproperty.so \
@@ -1436,10 +1431,8 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6837/proprietary/vendor/lib/libmtkshifter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkshifter_vendor.so \
     vendor/infinix/X6837/proprietary/vendor/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
     vendor/infinix/X6837/proprietary/vendor/lib/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_sec.so \
-    vendor/infinix/X6837/proprietary/vendor/lib/libnwk_opt_halwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnwk_opt_halwrap_vendor.so \
     vendor/infinix/X6837/proprietary/vendor/lib/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxp_extamp_intf.so \
     vendor/infinix/X6837/proprietary/vendor/lib/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfctl_vendor.so \
-    vendor/infinix/X6837/proprietary/vendor/lib/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpixelflinger.so \
     vendor/infinix/X6837/proprietary/vendor/lib/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpkm.so \
     vendor/infinix/X6837/proprietary/vendor/lib/libpnpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpnpmgr.so \
     vendor/infinix/X6837/proprietary/vendor/lib/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpower_timer.so \
@@ -1612,7 +1605,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6837/proprietary/vendor/lib/vendor.mediatek.hardware.mms@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.mms@1.6.so \
     vendor/infinix/X6837/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.0.so \
     vendor/infinix/X6837/proprietary/vendor/lib/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nvram@1.1.so \
-    vendor/infinix/X6837/proprietary/vendor/lib/vendor.mediatek.hardware.nwk_opt@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.nwk_opt@1.0.so \
     vendor/infinix/X6837/proprietary/vendor/lib/vendor.mediatek.hardware.power@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.power@1.1.so \
     vendor/infinix/X6837/proprietary/vendor/lib/vendor.mediatek.hardware.power@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.power@2.0.so \
     vendor/infinix/X6837/proprietary/vendor/lib/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.pq@2.0.so \
@@ -1917,11 +1909,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6837/proprietary/vendor/lib64/libTranExtImgThread.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTranExtImgThread.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libTranVideoSupeNightYuv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTranVideoSupeNightYuv.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libTransNS.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTransNS.so \
-    vendor/infinix/X6837/proprietary/vendor/lib64/lib_eara_io_scndet.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_eara_io_scndet.so \
-    vendor/infinix/X6837/proprietary/vendor/lib64/lib_eara_io_service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_eara_io_service.so \
-    vendor/infinix/X6837/proprietary/vendor/lib64/lib_eara_io_systracer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_eara_io_systracer.so \
-    vendor/infinix/X6837/proprietary/vendor/lib64/lib_eara_io_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_eara_io_timer.so \
-    vendor/infinix/X6837/proprietary/vendor/lib64/lib_eara_io_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_eara_io_util.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_iir.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_speech_enh.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libaal_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_cust.so \
@@ -2010,7 +1997,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6837/proprietary/vendor/lib64/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustom_nvram.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvsd_mtk.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdecrypt.so \
-    vendor/infinix/X6837/proprietary/vendor/lib64/libfeaturepolicy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeaturepolicy.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfgauge_gm30.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfile_op.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libforkexecwrap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libforkexecwrap.so \
@@ -2048,7 +2034,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6837/proprietary/vendor/lib64/libkmsetkey.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkmsetkey.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libksensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libksensor.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libladder.so \
-    vendor/infinix/X6837/proprietary/vendor/lib64/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminiui.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libminizip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminizip.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libmipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmipc.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmml.so \
@@ -2098,11 +2083,9 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6837/proprietary/vendor/lib64/libnpagent_server.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnpagent_server.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_sec.so \
-    vendor/infinix/X6837/proprietary/vendor/lib64/libnwk_opt_halwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnwk_opt_halwrap_vendor.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnxp_extamp_intf.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboemcrypto.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfctl_vendor.so \
-    vendor/infinix/X6837/proprietary/vendor/lib64/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixelflinger.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpkm.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libpn557_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpn557_fw.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/libpnpmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpnpmgr.so \
@@ -2457,7 +2440,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6837/proprietary/vendor/lib64/mt6789/s5khm6sx_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6789/s5khm6sx_mipi_raw_tuning.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/mtkcam/mt6789/libmtkcam_streaminfo_plugin-p1stt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtkcam/mt6789/libmtkcam_streaminfo_plugin-p1stt.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/nfc_nci_nxp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_nxp.so \
-    vendor/infinix/X6837/proprietary/vendor/lib64/nwk_opt_imp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nwk_opt_imp.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so \
@@ -2501,7 +2483,6 @@ PRODUCT_COPY_FILES += \
     vendor/infinix/X6837/proprietary/vendor/lib64/vendor.mediatek.hardware.neuropilot.agent@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.neuropilot.agent@1.2.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nvram@1.0.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nvram@1.1.so \
-    vendor/infinix/X6837/proprietary/vendor/lib64/vendor.mediatek.hardware.nwk_opt@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.nwk_opt@1.0.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/vendor.mediatek.hardware.power@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.power@1.1.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/vendor.mediatek.hardware.power@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.power@2.0.so \
     vendor/infinix/X6837/proprietary/vendor/lib64/vendor.mediatek.hardware.pq@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.pq@2.0.so \
