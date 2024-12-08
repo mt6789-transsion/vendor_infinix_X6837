@@ -76,6 +76,7 @@
 <virtualSpnOverride mccmncspn="25020ROSTELECOM" name="ROSTELECOM"/>
 <virtualSpnOverride mccmncspn="25020SberMobile" name="SberMobile"/>
 <virtualSpnOverride mccmncspn="25020TTK" name="TTK"/>
+<virtualSpnOverride mccmncspn="25020t2" name="t2"/>
 <virtualSpnOverride mccmncspn="26006Mobile Vikings" name="Mobile Vikings"/>
 <virtualSpnOverride mccmncspn="26201congstar" name="Telekom.de"/>
 <virtualSpnOverride mccmncspn="26202mobilcom-debitel" name="mobilcom-debitel"/>
@@ -148,11 +149,7 @@
 <virtualSpnOverride mccmncspn="204048.ta Δ" name="8.ta"/>
 <virtualSpnOverride mccmncspn="46015中国广电" name="中国广电"/>
 <virtualSpnOverride mccmncspn="46013中国广电" name="中国广电"/>
-<virtualSpnOverride mccmncspn="51009Smartfren" name="Smartfren"/>
-<virtualSpnOverride mccmncspn="51009smartfren" name="smartfren"/>
 <virtualSpnOverride mccmncspn="51011LIVE.ON" name="LIVE.ON"/>
-<virtualSpnOverride mccmncspn="51028Smartfren" name="Smartfren"/>
-<virtualSpnOverride mccmncspn="51028smartfren" name="smartfren"/>
 <virtualSpnOverride mccmncspn="51502GOMO" name="GOMO"/>
 <virtualSpnOverride mccmncspn="51502TM" name="TM"/>
 <virtualSpnOverride mccmncspn="51503TNT" name="TNT"/>
